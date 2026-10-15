@@ -18,7 +18,7 @@ def user_info():
 
 
 def deposit(deposit_amount):
-    if deposit1_amount:
+    if deposit_amount:
         amount = ca.deposit_cal(USER_DATA["balance"], deposit_amount)
         USER_DATA["balance"] = amount
         return amount
