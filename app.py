@@ -17,8 +17,6 @@ def user_info():
         print("user not found")
 
 
-
-
 def deposit(deposit_amount):
     if deposit1_amount:
         amount = ca.deposit_cal(USER_DATA["balance"], deposit_amount)
