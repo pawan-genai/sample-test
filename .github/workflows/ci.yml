@@ -38,3 +38,7 @@ jobs:
          6. Check code formatting
       - name: Check formatting
         run: ruff format --check .
+
+         7. Run tests
+      - name: Run tests
+        run: pytest
