@@ -1,6 +1,5 @@
 import calc as ca
 
-
 USER_DATA = {
     "username": "admin",
      "acc.no" : 123456,
